@@ -52,8 +52,9 @@ Check containers are running and the port mapping:
 ```
 $ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                 NAMES
-5fbb4181a069        wordpress:latest    "docker-entrypoint.s…"   35 seconds ago      Up 34 seconds       0.0.0.0:80->80/tcp    wordpress-mysql_wordpress_1
-e0884a8d444d        mysql:8.0.19        "docker-entrypoint.s…"   35 seconds ago      Up 34 seconds       3306/tcp, 33060/tcp   wordpress-mysql_db_1
+CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS       PORTS                 NAMES
+9dd93b9a0045   mariadb:10.6.4-focal   "docker-entrypoint.s…"   2 hours ago   Up 2 hours   3306/tcp, 33060/tcp   wordpress-mysql-db-1
+ac0712baf83b   wordpress:latest       "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:80->80/tcp    wordpress-mysql-wordpress-1
 ```
 
 Navigate to `http://localhost:80` in your web browser to access WordPress.
