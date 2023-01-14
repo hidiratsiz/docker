@@ -5,11 +5,11 @@ This example defines one of the basic setups for WordPress. More details on how 
 Project structure:
 ```
 .
-├── compose.yaml
+├── docker-compose.yml
 └── README.md
 ```
 
-[_compose.yaml_](compose.yaml)
+[_docker-compose.yml_](docker-compose.yml)
 ```
 services:
   db:
