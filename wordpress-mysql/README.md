@@ -51,7 +51,7 @@ Creating wordpress-mysql_wordpress_1 ... done
 Check containers are running and the port mapping:
 ```
 $ docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                 NAMES
+
 CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS       PORTS                 NAMES
 9dd93b9a0045   mariadb:10.6.4-focal   "docker-entrypoint.s…"   2 hours ago   Up 2 hours   3306/tcp, 33060/tcp   wordpress-mysql-db-1
 ac0712baf83b   wordpress:latest       "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:80->80/tcp    wordpress-mysql-wordpress-1
