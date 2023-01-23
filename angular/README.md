@@ -43,9 +43,9 @@ The compose file sets up an application with a single service called `angular.` 
 
 ```
 $ docker compose up -d
-![page](docker-compose.png)
-```
 
+```
+![page](docker-compose.png)
 
 ## Expected result
 
