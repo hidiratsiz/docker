@@ -6,6 +6,6 @@ I am preparing these examples for setting up projects and experimenting with sof
 
 ## Samples
 
-Angular
-Wordpress / MySQL
+1. Angular
+2. Wordpress / MySQL
 
