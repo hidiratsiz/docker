@@ -7,7 +7,7 @@ Example of using Dockerfile  and docker-compose together.
 
 You can open this sample in the Dev Environments feature of Docker Desktop version 4.15 or later.
 
-[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/angular)
+[Open in Docker Dev Environments <img src="./open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/angular)
 
 ### Angular service
 
